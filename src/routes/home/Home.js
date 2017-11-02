@@ -8,8 +8,12 @@
  */
 
 import React, { PropTypes } from 'react';
+import request from 'superagent';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.scss';
+
+
+
 
 function Home({ news }) {
   return (

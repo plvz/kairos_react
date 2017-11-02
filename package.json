@@ -5,11 +5,13 @@
     "npm": ">=3.3 <4"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "babel-polyfill": "6.6.1",
     "babel-runtime": "6.6.1",
     "bluebird": "3.3.3",
     "body-parser": "1.15.0",
     "classnames": "2.2.3",
+    "cloudinary-react": "^1.0.1",
     "cookie-parser": "1.4.1",
     "eventemitter3": "1.1.1",
     "express": "4.13.4",
@@ -31,10 +33,17 @@
     "passport-facebook": "2.1.0",
     "pg": "4.5.1",
     "pretty-error": "2.0.0",
-    "react": "0.14.7",
-    "react-dom": "0.14.7",
+    "react": "^15.6.2",
+    "react-alert": "^2.4.0",
+    "react-bootstrap-sweetalert": "^4.0.0",
+    "react-dropzone": "^4.2.1",
+    "react-images-upload": "^1.1.1",
+    "react-images-uploader": "^1.1.0",
+    "react-native-fetch-blob": "^0.10.8",
     "react-routing": "0.0.7",
     "source-map-support": "0.4.0",
+    "superagent": "^3.8.0",
+    "webpack-isomorphic-tools": "^3.0.5",
     "whatwg-fetch": "0.11.0"
   },
   "devDependencies": {
